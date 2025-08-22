@@ -1,0 +1,74 @@
+@use "../mixins/" as *;
+
+.page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-lg-1) var(--spacing-md-1);
+
+  &-logo {
+    max-width: 3rem;
+  }
+
+  &-menu {
+    display: none;
+
+    border: none;
+    background-color: transparent;
+  }
+
+  &-nav {
+    & .nav__close {
+      display: none;
+
+      border: none;
+      width: fit-content;
+
+      background-color: transparent;
+    }
+
+    & ul {
+      display: flex;
+      gap: var(--spacing-lg-1);
+    }
+  }
+
+  @include breakpoint("tablet-sm", "max") {
+    &-menu {
+      display: block;
+    }
+
+    .nav__overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+
+      display: none;
+      justify-content: end;
+
+      background-color: rgba(0, 0, 0, 0.61);
+    }
+
+    &-nav {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-xl-2);
+
+      padding: var(--spacing-md-2);
+      width: 75%;
+
+      background-color: var(--color-neutral-1);
+
+      & .nav__close {
+        display: block;
+        align-self: end;
+      }
+
+      & ul {
+        flex-direction: column;
+      }
+    }
+  }
+}

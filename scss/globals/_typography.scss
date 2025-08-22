@@ -1,0 +1,27 @@
+@forward "font-face";
+
+/* General */
+html {
+  font-size: 0.9375rem;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-neutral-4);
+}
+
+p {
+  color: var(--color-neutral-3);
+}
+
+/* Header */
+.page__header a {
+  font-weight: 500;
+}
+
+/* Main */

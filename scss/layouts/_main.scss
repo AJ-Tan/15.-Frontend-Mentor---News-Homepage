@@ -1,0 +1,16 @@
+main {
+  padding-inline: var(--spacing-md-1);
+}
+
+.hero {
+  display: grid;
+  gap: var(--spacing-md-1);
+
+  h1 {
+    font-size: 2.75rem;
+  }
+  &__content {
+    display: grid;
+    gap: var(--spacing-md-1);
+  }
+}
