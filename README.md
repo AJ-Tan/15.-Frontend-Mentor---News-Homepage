@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/AJ-Tan/15.-Frontend-Mentor---News-Homepage)
-- Live Site URL: [GitHub Pages](https://aj-tan.github.io/15.-Frontend-Mentor---News-Homepage/)
+- Solution URL: [GitHub - Repository](https://github.com/AJ-Tan/15.-Frontend-Mentor---News-Homepage)
+- Live Site URL: [GitHub - Pages](https://aj-tan.github.io/15.-Frontend-Mentor---News-Homepage/)
 
 ## My process
 
