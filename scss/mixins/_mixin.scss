@@ -1,5 +1,6 @@
 $breakpointList: (
-  "tablet-sm": 37.5em,
+  "tablet": 48em,
+  "desktop": 64em,
 );
 
 @mixin breakpoint($size, $mode: "min") {

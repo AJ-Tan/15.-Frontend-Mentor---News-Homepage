@@ -1,8 +1,7 @@
 @forward "font-face";
 
-/* General */
 html {
-  font-size: 0.9375rem;
+  font-size: 15px;
 }
 
 body {
@@ -15,13 +14,10 @@ h3 {
   color: var(--color-neutral-4);
 }
 
+h1 {
+  font-weight: 800;
+}
+
 p {
   color: var(--color-neutral-3);
 }
-
-/* Header */
-.page__header a {
-  font-weight: 500;
-}
-
-/* Main */

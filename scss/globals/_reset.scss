@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+body {
+  align-content: center;
+  min-height: 100vh;
+}
+
 img,
 picture {
   display: block;
@@ -13,7 +18,8 @@ picture {
 }
 
 a[role="button"],
-nav a {
+nav a,
+article a {
   text-decoration: none;
   color: inherit;
 }
@@ -21,4 +27,12 @@ nav a {
 ul:has(article),
 nav ul {
   list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+a {
+  transition: color calc(0.1s * var(--animation-factor)) ease-in-out,
+    background-color calc(0.1s * var(--animation-factor)) ease-in-out;
 }
