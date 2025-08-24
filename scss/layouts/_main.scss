@@ -137,14 +137,7 @@ a[role="button"] {
 }
 
 /** Media Queries **/
-@include breakpoint("tablet") {
-  main,
-  header {
-    margin-inline: auto;
-    max-width: 58rem;
-  }
-
-  /* Hero */
+@include breakpoint("tablet-sm") {
   .hero {
     h1 {
       font-size: 3.75rem;
@@ -161,6 +154,18 @@ a[role="button"] {
     &__content * {
       flex: 1;
     }
+  }
+}
+
+@include breakpoint("tablet") {
+  main,
+  header {
+    margin-inline: auto;
+    max-width: 58rem;
+  }
+
+  /* Hero */
+  .hero {
   }
 
   /* Featured Articles */
