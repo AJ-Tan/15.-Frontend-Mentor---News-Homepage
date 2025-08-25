@@ -30,7 +30,8 @@
     }
 
     & a {
-      font-weight: 500;
+      font-weight: 400;
+      color: var(--color-neutral-3);
 
       &:hover {
         color: var(--color-primary-2);
