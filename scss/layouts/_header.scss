@@ -44,7 +44,7 @@
   }
 }
 
-@include breakpoint("tablet", "max") {
+@include breakpoint("tablet-sm", "max") {
   .page__header {
     &-menu {
       display: block;
